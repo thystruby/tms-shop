@@ -1,0 +1,18 @@
+.navigation {
+  display: flex;
+  align-items: center;
+
+
+  &__item {
+    font-weight: 600;
+    padding: 10px;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    color: $white;
+
+    &:not(:last-child) {
+      margin-right: 21px;
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "name": "tms-gulp4-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thystruby/tms-gulp4-boilerplate.git"
+  },
+  "author": "Nikita P.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thystruby/tms-gulp4-boilerplate/issues"
+  },
+  "homepage": "https://github.com/thystruby/tms-gulp4-boilerplate#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.12",
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-uglify-es": "^2.0.0",
+    "jquery": "^3.5.1"
+  }
+}

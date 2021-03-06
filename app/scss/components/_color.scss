@@ -1,0 +1,33 @@
+.c-color {
+  display: flex;
+  align-items: center;
+
+  &__item {
+    width: 30px;
+    height: 30px;
+    outline: none;
+    border-radius: 100px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    border: 2px solid #FFFFFF;
+
+    &--blue {
+      background-color: $blue;
+    }
+
+    &--green {
+      background-color: $green;
+    }
+
+    &--orange {
+      background-color: $orange;
+    }
+
+    &--black {
+      background-color: $black;
+    }
+
+    &:not(:last-child) {
+      margin-right: 8px;
+    }
+  }
+}

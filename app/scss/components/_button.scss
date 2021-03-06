@@ -1,0 +1,14 @@
+.c-button {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  color: $blue;
+  padding: 16px 46px;
+  background: $white;
+  border: 0;
+  transition: background-color .2s ease-out;
+
+  &:hover {
+    background: darken($white, 10);
+  }
+}

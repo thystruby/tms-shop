@@ -1,0 +1,6 @@
+@mixin pageHeading($color: $black) {
+  font-weight: bold;
+  font-size: 24px;
+  color: $color;
+  line-height: 36px;
+}
